@@ -19,3 +19,4 @@ The following assumes the use of `node@>=10`.
 ## Run Tests
 
 `yarn test`
+"# clone-swap-core" 
