@@ -1,7 +1,7 @@
 # Clone Factory
 
 # How to deploy with truffle ? <br>
-1. Deploy files .sol in ./libraries
+1. Deploy files in ./libraries
 2. Link CloneERC20 with SafeMath
 3. Deploy CloneERC20
 4. Link ClonePair with Math, UQ112x112 and CloneERC20
