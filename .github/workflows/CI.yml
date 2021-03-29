@@ -32,6 +32,14 @@ jobs:
           restore-keys: |
             ${{ matrix.os }}-yarn-
 
-      - run: yarn
-      - run: yarn lint
-      - run: yarn test
+      - name : install dependency
+        run: yarn
+        
+      - name : install truffle
+        run: yarn add truffle
+        
+      - name: try to compile
+        run: yarn pretest
+      
+      - name : try to test (by waffle)
+        run: yarn test
